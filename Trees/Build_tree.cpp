@@ -3,8 +3,9 @@ using namespace std;
 
 class node
 {
-    node* left;
-    node* right;
+public:
+    node *left;
+    node *right;
     int data;
 
     node(int data)
@@ -15,9 +16,30 @@ class node
     }
 };
 
+node *build_tree()
+{
+    int data;
+    cin >> data;
+
+    if (data == -1)
+        return NULL;
+    node *root = new node(data);
+
+    cout << "Enter data for left part of " << data << endl;
+    root->left = build_tree();
+    cout << "Enter data for right part of " << data << endl;
+    root->right = build_tree();
+
+    return root;
+}
+
+void Level_Traversal()
+{
+    
+}
+
 int main()
 {
-    node* abhi;
-    abhi = new node(56);
+    node* head = build_tree();
     return 0;
 }
