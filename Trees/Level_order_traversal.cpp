@@ -38,16 +38,27 @@ void Level_Traversal(node *root)
     queue<node *> q;
 
     q.push(root);
+    q.push(NULL);
 
     while (!q.empty())
     {
         node *temp = q.front();
         q.pop();
-        cout << temp->data;
-        if (temp->left)
-            q.push(temp->left);
-        if (temp->right)
-            q.push(temp->right);
+        if (!temp)
+        {
+            if (!q.empty())
+                q.push(NULL);
+            cout << endl;
+        }
+
+        else
+        {
+            cout << temp->data << " ";
+            if (temp->left)
+                q.push(temp->left);
+            if (temp->right)
+                q.push(temp->right);
+        }
     }
 }
 
