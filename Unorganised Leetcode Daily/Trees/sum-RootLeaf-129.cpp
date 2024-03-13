@@ -5,22 +5,14 @@ public:
     int solve(TreeNode *root, int sum)
     {
         if (!root)
-            return 0;
-        sum = (sum * 10) + root->val;
+            return 0;                 // If No root -> simply return without making anychanges in sum
+        sum = (sum * 10) + root->val; // As given nodes are single digit , simply append the next node's number in sum
         if (!root->left && !root->right)
-            return sum;
-        int left = solve(root->left, sum);
-        int right = solve(root->right, sum);
-
-        return left + right;
+            return sum;                                          // if the node is leaf node return sum
+        return solve(root->left, sum) + solve(root->right, sum); // return sum for left and right
     }
     int sumNumbers(TreeNode *root)
     {
-        int sum = root->val;
-        if (!root->left && !root->right)
-            return sum;
-        int left = solve(root->left, sum);
-        int right = solve(root->right, sum);
-        return left + right;
+        return solve(root, 0);
     }
 };
