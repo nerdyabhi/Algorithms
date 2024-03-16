@@ -1,4 +1,4 @@
-#### Code Snippet for Leetcode 105
+### Code Snippet for Leetcode 105
 
 ```cpp
 class Solution {
