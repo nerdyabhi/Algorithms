@@ -1,6 +1,6 @@
 #### Video solution
 
-<iframe align = "center"  width="400" height="225" src="https://www.youtube.com/embed/XXaVIDIbUn4" title="Insert Interval | Brute Force | Optimal | Google | Apple | codestorywithMIK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![Click here for video explaintation](https://www.youtube.com/watch?v=XXaVIDIbUn4)
 
 #### TLE solution (bruteforce)
 
