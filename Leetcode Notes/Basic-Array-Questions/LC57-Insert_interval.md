@@ -44,7 +44,9 @@ public:
 
 ## Optimal Solution
 
-```
+Used extra vector to perform operations which will cut insertion and deletion cost of previous code making it run in o(n)
+
+```cpp
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
