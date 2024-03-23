@@ -1,7 +1,6 @@
 ### 143. Reorder list
 
 <hr>
-
 ```cpp
 class Solution {
 public:
