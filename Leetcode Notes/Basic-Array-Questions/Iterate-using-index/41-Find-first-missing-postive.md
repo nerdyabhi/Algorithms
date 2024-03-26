@@ -40,4 +40,4 @@ public:
 
 ### Video explaination :
 
-<iframe width="782" height="526" src="https://www.youtube.com/embed/lyjOwaUEWWQ?list=RDCMUCaw58edcO3ZqMw76Bvs0kGQ" title="First Missing Positive | In Depth Intuition | Clean Code | Leetcode 41 | codestorywithMIK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Click here](https://youtu.be/lyjOwaUEWWQ?list=RDCMUCaw58edcO3ZqMw76Bvs0kGQ)
